@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Chakra Petch';
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: underline;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 1rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+h3 {
+text-align: center;
+color: whitesmoke;
+padding-top: 1rem;
+font-size: 1.5rem;
+  }
+  
+
+body {
+  margin: 0;
+  background: maroon;
+  background-image: linear-gradient(to top right, rgb(201, 25, 25), maroon);
+  border-style: solid 5px white;
+  padding: 5px;
+}
+
+.logo {
+  border-radius: 12px;
+margin: 10px auto auto;
+max-width: 600px;
+}
+
+.container {
+margin: 30px auto auto;
+  width: 90%;
+  background-image: linear-gradient(to top right, rgb(132, 131, 131), rgb(62, 58, 58));;
+  padding: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  text-align: center;
+  border-bottom: 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+ /* &:hover {
+opacity: 0.8;
+  } */
+}
+
+
+.widget {
+  margin: 30px auto auto;
+  margin-bottom: 1rem;
+  width: 90%;
+  background-image: linear-gradient(to top right, rgb(132, 131, 131), rgb(62, 58, 58));;
+  padding: auto;
+  overflow: hidden;
+  border-radius: 12px;
+  text-align: center;
+  border-bottom: 1rem;
+}
+
+.twitter-timeline {
+  margin: auto auto;
+  padding: auto;
+  padding-bottom: 30px;
+  overflow: hidden;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.nav {
+  background-color: gray;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: stretch;
+  z-index: -1;
+  max-width: 97%;
+  margin: auto auto;
+  border-radius: 5px;
+  transform: translateY(-10px);
+}
+
+.nav li {
+  padding-right: 30px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  font-size: 30px;
+  text-decoration: none;
+  height: 100%;
+  display: inline-block;
+  align-items: center;
+  padding: 5px;
+  gap: 5rem;
+}
+
+.nav a:active {
+  background-color: rgb(169, 169, 169);
+  color: inherit;
+  border-bottom: solid lightgrey 2px;
+}
+
+.nav a:hover {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  transition: .5s;
+}
